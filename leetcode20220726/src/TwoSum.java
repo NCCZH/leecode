@@ -18,6 +18,7 @@ public class TwoSum {
         HashMap hashMap=new HashMap();
         for(int i=0;i<nums.length;i++){
             if(i==0){
+
                 //将首位元素放入哈希表
                 hashMap.put(nums[i],i);
             }else {
